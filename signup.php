@@ -21,9 +21,9 @@
     $stmt->bindParam(':password', $password);
     //si todo funciona enviamos un mensaje al usuario si no se enviara un mensaje 
     if ($stmt->execute()) {
-      $message = 'Successfully created new user';
+      $message = 'Se creo correctamente el usuario';
     } else {
-      $message = 'Sorry there must have been an issue creating your account';
+      $message = 'lo siento no se pudo crear el suario';
     }
     
   }

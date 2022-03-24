@@ -25,7 +25,7 @@
       //redireccionamos a una pagina
       header("Location: /php-login-simple-master/dentro");
     } else {
-      $message = 'Sorry, those credentials do not match';
+      $message = 'las credenciales no son correctas';
     }
   }
 

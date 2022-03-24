@@ -53,9 +53,7 @@
   <body>
     <br><br><br>
    
-    <!-- imprimimos el mensaje de error o de aceptacion de usuario -->
-   
-
+  
         <h2>actualizar informacion</h3>
       <!-- creamos el formulario  -->
     <form action="actualizar.php" method="POST">
